@@ -15,7 +15,7 @@ gemspec
 gem 'webpacker'
 
 # Motor Sip
-gem 'sip', git: "https://github.com/pasosdeJesus/sip.git"
+gem 'sip', git: "https://github.com/pasosdeJesus/sip.git", branch: :sintemas
 #gem 'sip', path: '../sip'
 
 # Descripciones en heb412_gen
