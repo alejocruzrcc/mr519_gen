@@ -2,7 +2,8 @@
   "name": "dummy",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^4.0.2"
+    "@rails/webpacker": "^4.0.2",
+    "html5sortable": "^0.9.17"
   },
   "devDependencies": {
     "webpack-dev-server": "^3.4.1"

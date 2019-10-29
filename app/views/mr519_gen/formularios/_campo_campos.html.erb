@@ -2,7 +2,14 @@
 <div class="panel panel-default">
   <div class="panel-heading">Campos en formulario</div>
   <div class="panel-body">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="https://formbuilder.online/assets/js/form-builder.min.js"></script>
+    <div id="fb-editor"></div>
+    <script>
+        jQuery(function($) {
+              $(document.getElementById('fb-editor')).formBuilder();
+            });
+  </script>
     <div class="div-campos">
       <table border=1 width="100%">
         <thead>
